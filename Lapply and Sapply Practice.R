@@ -6,9 +6,9 @@ x <- list(a = 1:5, b = rnorm(10))
 
 lapply(x, mean)
 
-$a
+# $a
 
-$b
+# $b
 
 # lapply will always give you a list back. Here it made a list of means for "a" and "b"
 
